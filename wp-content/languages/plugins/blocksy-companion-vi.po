@@ -127,13 +127,13 @@ msgid "Posts - Layout 1"
 msgstr "Bài viết - Bố cục 1"
 
 #: framework/features/blocks/dynamic-data/views/woo-field.php:26
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/dynamic-data/preview-parts/woo/StockPreview.js:7
 msgid "Out of Stock"
 msgstr "Hết hàng"
 
 #: framework/features/blocks/dynamic-data/views/woo-field.php:25
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/dynamic-data/preview-parts/woo/StockPreview.js:6
 msgid "In Stock"
 msgstr "Còn hàng"
@@ -142,33 +142,27 @@ msgstr "Còn hàng"
 msgid "%s Avatar"
 msgstr "%s Ảnh đại diện"
 
-#: framework/features/blocks/dynamic-data/options.php:224
+#: framework/features/blocks/dynamic-data/options.php:220
 msgid "Terms accent color"
 msgstr "Màu phụ của các điều kiện"
 
-#: framework/features/blocks/dynamic-data/options.php:207
+#: framework/features/blocks/dynamic-data/options.php:203
 msgid "Link Rel"
 msgstr "Liên kết Rel"
 
-#: framework/features/blocks/dynamic-data/options.php:201
+#: framework/features/blocks/dynamic-data/options.php:197
 msgid "Open in new tab"
 msgstr "Mở trong tab mới"
 
-#: framework/features/blocks/dynamic-data/options.php:184
+#: framework/features/blocks/dynamic-data/options.php:180
 msgid "Link to term page"
 msgstr "Liên kết đến trang điều kiện"
-
-#: framework/features/blocks/dynamic-data/options.php:180
-msgid "Link to user page"
-msgstr "Liên kết đến trang người dùng"
 
 #: framework/features/blocks/dynamic-data/options.php:176
 msgid "Link to author page"
 msgstr "Liên kết đến trang tác giả"
 
-#: framework/features/blocks/dynamic-data/options.php:168
 #: framework/features/blocks/dynamic-data/options.php:172
-#: framework/features/blocks/dynamic-data/options.php:188
 msgid "Link to post"
 msgstr "Liên kết đến bài viết"
 
@@ -202,13 +196,13 @@ msgstr "Nhiều bình luận"
 
 #: framework/features/blocks/dynamic-data/options.php:102
 #: framework/features/blocks/dynamic-data/options.php:103
-#: framework/features/blocks/dynamic-data/views/wp-field.php:139
+#: framework/features/blocks/dynamic-data/views/wp-field.php:203
 msgid "One comment"
 msgstr "Một bình luận"
 
 #: framework/features/blocks/dynamic-data/options.php:96
 #: framework/features/blocks/dynamic-data/options.php:97
-#: framework/features/blocks/dynamic-data/views/wp-field.php:138
+#: framework/features/blocks/dynamic-data/views/wp-field.php:202
 msgid "No comments"
 msgstr "Không có bình luận"
 
@@ -229,7 +223,7 @@ msgid "Default format"
 msgstr "Định dạng mặc định"
 
 #: framework/features/blocks/dynamic-data/options.php:32
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:141
 msgid "Modified Date"
 msgstr "Ngày sửa đổi"
@@ -623,9 +617,9 @@ msgstr "Bộ lọc bài viết"
 msgid "Integrates custom fields solutions in the meta layers of a post and presents additional information."
 msgstr "Hợp nhất các giải pháp trường tùy chỉnh trong các lớp meta của một bài viết và hiển thị thông tin bổ sung."
 
-#: framework/helpers/exts.php:97 static/bundle/blocks/blocks.js:11
+#: framework/helpers/exts.php:97 static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/dynamic-data/index.js:16
-#: static/js/editor/blocks/dynamic-data/index.js:84
+#: static/js/editor/blocks/dynamic-data/index.js:100
 msgid "Dynamic Data"
 msgstr "Dữ liệu động"
 
@@ -724,14 +718,14 @@ msgid "Border Radius"
 msgstr "Bo viền"
 
 #: framework/features/header/items/account/options.php:1939
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/breadcrumbs/Edit.js:66
 #: static/js/editor/blocks/contact-info/Edit.js:123
 msgid "Link Hover"
 msgstr "Liên kết khi di chuột"
 
 #: framework/features/header/items/account/options.php:1933
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/breadcrumbs/Edit.js:60
 #: static/js/editor/blocks/contact-info/Edit.js:114
 msgid "Link Initial"
@@ -854,7 +848,7 @@ msgid "Requests"
 msgstr "Yêu cầu"
 
 #: framework/features/conditions/rules/date-time.php:14
-#: static/bundle/options.js:14
+#: static/bundle/options.js:15
 #: static/js/options/ConditionsManager/ScheduleDate.js:143
 msgid "Recurring Days"
 msgstr "Những Ngày Lặp Lại"
@@ -1097,7 +1091,7 @@ msgstr "Chính thức"
 #: framework/features/blocks/about-me/options.php:187
 #: framework/features/blocks/share-box/options.php:122
 #: framework/features/blocks/socials/options.php:93
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/about-me/Edit.js:117
 #: static/js/editor/blocks/contact-info/Edit.js:133
 msgid "Icons Color"
@@ -1155,9 +1149,11 @@ msgid "Image Size"
 msgstr "Kích thước ảnh"
 
 #: framework/features/header/header-options.php:84
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:46
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:73
+#: static/js/editor/blocks/tax-query/edit/TermsInspectorControls.js:42
+#: static/js/editor/blocks/tax-query/edit/TermsInspectorControls.js:69
 msgid "Offset"
 msgstr "Lệch"
 
@@ -1184,8 +1180,7 @@ msgstr "Nút chấp nhận"
 
 #: framework/extensions/cookies-consent/customizer.php:147
 #: framework/extensions/newsletter-subscribe/customizer.php:196
-#: static/bundle/blocks/blocks.js:11
-#: static/js/editor/blocks/about-me/Edit.js:89
+#: static/bundle/blocks/blocks.js:7 static/js/editor/blocks/about-me/Edit.js:89
 #: static/js/editor/blocks/breadcrumbs/Edit.js:43
 #: static/js/editor/blocks/contact-info/Edit.js:96
 msgid "Text Color"
@@ -1388,7 +1383,7 @@ msgstr "Không hoạt động"
 #: framework/extensions/product-reviews/extension.php:472
 #: framework/extensions/product-reviews/extension.php:493
 #: framework/features/header/items/account/options.php:1985
-#: static/bundle/dashboard.js:11
+#: static/bundle/dashboard.js:7
 #: static/js/dashboard/screens/Extensions/Sidebar.js:120
 msgid "Active"
 msgstr "Kích hoạt"
@@ -1453,7 +1448,7 @@ msgstr "Hiển thị hộp chấp nhận cookie để tuân thủ các quy đị
 #: framework/features/header/items/account/options.php:1631
 #: framework/extensions/newsletter-subscribe/admin-static/bundle/newsletter-block.js:1
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:190
-#: static/bundle/blocks/blocks.js:11 static/js/editor/blocks/search/Edit.js:250
+#: static/bundle/blocks/blocks.js:7 static/js/editor/blocks/search/Edit.js:250
 msgid "Input Background Color"
 msgstr "Nhập Màu nền"
 
@@ -1461,7 +1456,7 @@ msgstr "Nhập Màu nền"
 #: framework/features/header/items/account/options.php:1588
 #: framework/extensions/newsletter-subscribe/admin-static/bundle/newsletter-block.js:1
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:159
-#: static/bundle/blocks/blocks.js:11 static/js/editor/blocks/search/Edit.js:223
+#: static/bundle/blocks/blocks.js:7 static/js/editor/blocks/search/Edit.js:223
 msgid "Input Border Color"
 msgstr "Nhập Màu đường viền"
 
@@ -1475,7 +1470,7 @@ msgstr "Nhập Màu đường viền"
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:146
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:177
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:210
-#: static/bundle/blocks/blocks.js:11 static/js/editor/blocks/search/Edit.js:213
+#: static/bundle/blocks/blocks.js:7 static/js/editor/blocks/search/Edit.js:213
 #: static/js/editor/blocks/search/Edit.js:240
 #: static/js/editor/blocks/search/Edit.js:269
 msgid "Focus"
@@ -1485,7 +1480,7 @@ msgstr "Tiêu điểm"
 #: framework/features/header/items/account/options.php:1553
 #: framework/extensions/newsletter-subscribe/admin-static/bundle/newsletter-block.js:1
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:128
-#: static/bundle/blocks/blocks.js:11 static/js/editor/blocks/search/Edit.js:196
+#: static/bundle/blocks/blocks.js:7 static/js/editor/blocks/search/Edit.js:196
 msgid "Input Font Color"
 msgstr "Nhập màu Font"
 
@@ -1623,7 +1618,7 @@ msgstr "Ảnh tài khoản"
 #: framework/features/header/items/account/options.php:1409
 #: framework/features/header/items/account/options.php:1450
 #: framework/features/header/items/account/options.php:1738
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/share-box/Edit.js:81
 #: static/js/editor/blocks/socials/Edit.js:81
 msgid "Icon Color"
@@ -1817,7 +1812,7 @@ msgid "Parent Category"
 msgstr "Chuyên mục cha"
 
 #: framework/extensions/product-reviews/extension.php:593
-#: static/bundle/dashboard.js:11
+#: static/bundle/dashboard.js:7
 #: static/js/dashboard/screens/DemoInstall/filters/DemoListFilters.js:60
 #: static/js/dashboard/screens/DemoInstall/filters/DemoListFilters.js:65
 #: static/js/dashboard/screens/DemoInstall/filters/DemoListFilters.js:88
@@ -1872,8 +1867,8 @@ msgstr "Tổng điểm"
 
 #: framework/extensions/product-reviews/helpers.php:30
 #: framework/extensions/product-reviews/metabox.php:179
-#: static/bundle/blocks/blocks.js:11
-#: static/js/editor/blocks/dynamic-data/hooks/use-dynamic-data-descriptor.js:101
+#: static/bundle/blocks/blocks.js:7
+#: static/js/editor/blocks/dynamic-data/hooks/use-dynamic-data-descriptor.js:131
 msgid "Rating"
 msgstr "Xếp hạng"
 
@@ -1926,14 +1921,14 @@ msgid "Post with Taxonomy ID"
 msgstr "Đăng với ID Taxonomy"
 
 #: framework/features/conditions-manager.php:234
-#: static/bundle/blocks/blocks.js:11 static/bundle/options.js:14
+#: static/bundle/blocks/blocks.js:7 static/bundle/options.js:15
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:291
 #: static/js/options/ConditionsManager/SingleCondition.js:92
 msgid "Exclude"
 msgstr "Loại trừ "
 
 #: framework/features/conditions-manager.php:234
-#: static/bundle/blocks/blocks.js:11 static/bundle/options.js:14
+#: static/bundle/blocks/blocks.js:7 static/bundle/options.js:15
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:283
 #: static/js/options/ConditionsManager/SingleCondition.js:91
 msgid "Include"
@@ -2016,14 +2011,14 @@ msgstr "Địa chỉ:"
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:13
 #: framework/features/blocks/contact-info/options.php:19
 #: framework/features/header/items/account/options.php:577
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/breadcrumbs/Edit.js:54
 #: static/js/editor/blocks/contact-info/Edit.js:107
 msgid "Text"
 msgstr "Văn bản"
 
 #: framework/features/blocks/contact-info/options.php:15
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/contact-info/index.js:51
 #: static/js/editor/blocks/contact-info/index.js:53
 msgid "Contact Info"
@@ -2042,8 +2037,9 @@ msgid "Custom Query"
 msgstr "Query Tuỳ chỉnh"
 
 #: framework/extensions/trending/customizer.php:238
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/query/edit/layers/useTaxonomiesLayers.js:186
+#: static/js/editor/blocks/query/edit/layers/useTaxonomiesLayers.js:229
 msgid "Taxonomies"
 msgstr "Phân loại"
 
@@ -2052,8 +2048,9 @@ msgid "All taxonomies"
 msgstr "Tất cả phân loại"
 
 #: framework/extensions/trending/customizer.php:41
-#: static/bundle/blocks/blocks.js:11
-#: static/js/editor/blocks/dynamic-data/components/InspectorControls.js:63
+#: static/bundle/blocks/blocks.js:7
+#: static/js/editor/blocks/dynamic-data/components/InspectorControls.js:66
+#: static/js/editor/blocks/tax-query/Edit.js:156
 msgid "Taxonomy"
 msgstr "Taxonomy"
 
@@ -2128,8 +2125,8 @@ msgstr "Loại tô hình dạng"
 #: framework/features/blocks/contact-info/options.php:532
 #: framework/features/blocks/share-box/options.php:143
 #: framework/features/blocks/socials/options.php:114
-#: static/bundle/blocks/blocks.js:11
-#: static/js/editor/blocks/dynamic-data/components/Dimensions.js:84
+#: static/bundle/blocks/blocks.js:7
+#: static/js/editor/blocks/dynamic-data/components/Dimensions.js:86
 msgid "Square"
 msgstr "Vuông"
 
@@ -2149,8 +2146,8 @@ msgstr "Làm tròn"
 #: framework/features/header/items/account/options.php:268
 #: framework/features/header/items/account/options.php:348
 #: framework/features/header/items/account/options.php:746
-#: static/bundle/blocks/blocks.js:11
-#: static/js/editor/blocks/dynamic-data/components/InspectorControls.js:126
+#: static/bundle/blocks/blocks.js:7
+#: static/js/editor/blocks/dynamic-data/components/InspectorControls.js:170
 msgid "None"
 msgstr "Không dùng"
 
@@ -2194,6 +2191,8 @@ msgid "Open link in new tab"
 msgstr "Mở liên kết trong tab mới"
 
 #: framework/features/blocks/about-me/options.php:49
+#: static/bundle/blocks/blocks.js:7
+#: static/js/editor/blocks/dynamic-data/components/InspectorControls.js:96
 msgid "Image"
 msgstr "Hình ảnh"
 
@@ -2341,6 +2340,8 @@ msgstr "Form Subscribe"
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/view.php:253
 #: framework/features/blocks/about-me/options.php:58
 #: framework/features/header/items/account/options.php:578
+#: static/bundle/blocks/blocks.js:7
+#: static/js/editor/blocks/tax-query/edit/TermsInspectorControls.js:129
 msgid "Name"
 msgstr "Tên"
 
@@ -2391,7 +2392,7 @@ msgstr "Trường Tên"
 
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:50
 #: framework/extensions/newsletter-subscribe/customizer.php:61
-#: framework/extensions/newsletter-subscribe/dashboard-static/bundle/main.js:14
+#: framework/extensions/newsletter-subscribe/dashboard-static/bundle/main.js:15
 #: framework/extensions/newsletter-subscribe/dashboard-static/js/EditCredentials.js:204
 msgid "List ID"
 msgstr "ID danh sách"
@@ -2414,7 +2415,7 @@ msgstr "ID danh sách"
 #: framework/features/header/items/account/options.php:25
 #: framework/features/header/items/account/options.php:389
 #: framework/features/header/items/account/options.php:770
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/dynamic-data/utils.js:10
 msgid "Custom"
 msgstr "Tùy chỉnh"
@@ -2447,8 +2448,8 @@ msgstr "Newsletter"
 #: framework/features/blocks/contact-info/options.php:428
 #: framework/features/blocks/share-box/options.php:14
 #: framework/features/blocks/socials/options.php:14
-#: static/bundle/blocks/blocks.js:11
-#: static/js/editor/blocks/dynamic-data/hooks/use-dynamic-data-descriptor.js:20
+#: static/bundle/blocks/blocks.js:7
+#: static/js/editor/blocks/dynamic-data/hooks/use-dynamic-data-descriptor.js:44
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:125
 msgid "Title"
 msgstr "Tiêu đề"
@@ -2518,7 +2519,7 @@ msgstr "Đang là xu hướng"
 
 #: framework/extensions/trending/customizer.php:210
 #: framework/extensions/trending/customizer.php:224
-#: static/bundle/blocks/blocks.js:11 static/js/editor/blocks/query/Edit.js:169
+#: static/bundle/blocks/blocks.js:7 static/js/editor/blocks/query/Edit.js:169
 msgid "Post Type"
 msgstr "Loại bài viết"
 
@@ -2532,7 +2533,7 @@ msgid "Products"
 msgstr "Sản phẩm"
 
 #: framework/extensions/trending/customizer.php:374
-#: framework/features/header/header-options.php:163 static/bundle/options.js:14
+#: framework/features/header/header-options.php:163 static/bundle/options.js:15
 #: static/js/header/EditConditions.js:103
 msgid "Display Conditions"
 msgstr "Điều kiện hiển thị"
@@ -2715,7 +2716,7 @@ msgstr "Lề mục"
 #: framework/extensions/newsletter-subscribe/admin-static/bundle/newsletter-block.js:1
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:239
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:270
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/about-me/Edit.js:106
 #: static/js/editor/blocks/about-me/Edit.js:134
 #: static/js/editor/blocks/about-me/Edit.js:169
@@ -2770,8 +2771,7 @@ msgstr "Di chuột"
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:201
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:230
 #: framework/extensions/newsletter-subscribe/admin-static/js/newsletter-block/Edit.js:261
-#: static/bundle/blocks/blocks.js:11
-#: static/js/editor/blocks/about-me/Edit.js:99
+#: static/bundle/blocks/blocks.js:7 static/js/editor/blocks/about-me/Edit.js:99
 #: static/js/editor/blocks/about-me/Edit.js:127
 #: static/js/editor/blocks/about-me/Edit.js:160
 #: static/js/editor/blocks/about-me/Edit.js:189
@@ -2889,8 +2889,9 @@ msgstr "Icon"
 #: framework/extensions/trending/customizer.php:110
 #: framework/features/header/header-options.php:6
 #: framework/features/header/items/account/options.php:330
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/query/edit/PostsInspectorControls.js:43
+#: static/js/editor/blocks/tax-query/edit/TermsInspectorControls.js:39
 msgid "General"
 msgstr "Tổng quan"
 
@@ -3117,9 +3118,10 @@ msgstr "Blog"
 #: framework/features/blocks/search/view.php:80
 #: framework/features/blocks/search/view.php:261
 #: framework/features/conditions/rules/pages.php:22
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/query/edit/PatternSelectionModal.js:92
 #: static/js/editor/blocks/search/Preview.js:23
+#: static/js/editor/blocks/tax-query/edit/PatternSelectionModal.js:78
 msgid "Search"
 msgstr "Tìm kiếm"
 
@@ -3133,7 +3135,7 @@ msgid "Taxonomy ID"
 msgstr "ID Taxonomy "
 
 #: framework/features/conditions/rules/specific.php:20
-#: static/bundle/options.js:14
+#: static/bundle/options.js:15
 #: static/js/options/ConditionsManager/PostIdPicker.js:79
 msgid "Custom Post Type ID"
 msgstr "ID Loại bài viết tùy chỉnh"
@@ -3147,7 +3149,7 @@ msgid "Post ID"
 msgstr "ID Bài viết"
 
 #: framework/features/conditions/rules/specific.php:48
-#: static/bundle/blocks/blocks.js:11
+#: static/bundle/blocks/blocks.js:7
 #: static/js/editor/blocks/query/edit/layers/useTaxonomiesLayers.js:69
 msgid "Specific"
 msgstr "Riêng biệt"

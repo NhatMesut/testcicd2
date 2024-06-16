@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: 103.142.24.58
-        username: ftp_nhat_id_vn
-        password: 2d6bf92cb22e9
+        server: 103.130.217.60
+        username: cfiovndy
+        password: =74!+X+B3-Yp
         local-dir: ./
-        server-dir: ./
+        server-dir: /public_html/

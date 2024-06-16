@@ -994,12 +994,12 @@ msgstr "Danh sách dưới"
 msgid "Comment Form Position"
 msgstr "Vị trí Form Bình luận"
 
-#: inc/manager.php:233 inc/manager.php:239
+#: inc/manager.php:234 inc/manager.php:240
 msgid "You got %s result. Please press Tab to select it."
 msgid_plural "You got %s results. Please press Tab to select one."
 msgstr[0] "Bạn đã nhận được kết quả %s. Vui lòng nhấn Tab để chọn nó."
 
-#: inc/manager.php:232 searchform.php:345
+#: inc/manager.php:231 inc/manager.php:233 searchform.php:345
 msgid "No results"
 msgstr "Không có kết quả"
 
@@ -1184,12 +1184,12 @@ msgstr "Bán kính đường viền mục"
 msgid "Custom Quantity Input"
 msgstr "Nhập số lượng tùy chỉnh"
 
-#: inc/manager.php:247
+#: inc/manager.php:248
 msgid "Collapse dropdown menu"
 msgstr "Thu gọn menu thả xuống"
 
 #: inc/components/menus.php:80 inc/components/menus.php:93
-#: inc/components/menus.php:242 inc/manager.php:246
+#: inc/components/menus.php:242 inc/manager.php:247
 msgid "Expand dropdown menu"
 msgstr "Mở rộng menu thả xuống"
 
@@ -1493,73 +1493,73 @@ msgstr "Đăng xuất"
 msgid "Image size used for the main image on single product pages."
 msgstr "Kích thước Ảnh được sử dụng cho hình ảnh chính trên trang sản phẩm đơn lẻ."
 
-#: inc/options/woocommerce/general/checkout-page.php:179
+#: inc/options/woocommerce/general/checkout-page.php:184
 msgid "I have read and agree to the website %s"
 msgstr "Tôi đã đọc và đồng ý với trang web %s"
 
-#: inc/options/woocommerce/general/checkout-page.php:176
+#: inc/options/woocommerce/general/checkout-page.php:181
 msgid "Optionally add some text for the terms checkbox that customers must accept."
 msgstr "Tùy chọn thêm một số văn bản cho hộp kiểm điều khoản mà khách hàng phải chấp nhận."
 
-#: inc/options/woocommerce/general/checkout-page.php:175
+#: inc/options/woocommerce/general/checkout-page.php:180
 msgid "Terms and conditions"
 msgstr "Điều khoản và điều kiện"
 
-#: inc/options/woocommerce/general/checkout-page.php:162
+#: inc/options/woocommerce/general/checkout-page.php:167
 msgid "Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our [privacy_policy]."
 msgstr "Thông tin cá nhân của bạn sẽ được sử dụng để xử lý đơn hàng, tăng trải nghiệm sử dụng website, và cho các mục đích cụ thể khác đã được mô tả trong [privacy_policy] của chúng tôi."
 
-#: inc/options/woocommerce/general/checkout-page.php:160
+#: inc/options/woocommerce/general/checkout-page.php:165
 msgid "Optionally add some text about your store privacy policy to show during checkout."
 msgstr "Tùy chọn thêm một số văn bản về chính sách bảo mật cửa hàng của bạn để hiển thị trong quá trình thanh toán."
 
-#: inc/options/woocommerce/general/checkout-page.php:159
+#: inc/options/woocommerce/general/checkout-page.php:164
 msgid "Privacy policy"
 msgstr "Chính sách bảo mật"
 
-#: inc/options/woocommerce/general/checkout-page.php:147
+#: inc/options/woocommerce/general/checkout-page.php:152
 msgid "Terms And Conditions Page"
 msgstr "Trang Điều khoản và Điều kiện"
 
-#: inc/options/woocommerce/general/checkout-page.php:134
+#: inc/options/woocommerce/general/checkout-page.php:139
 msgid "Privacy Policy Page"
 msgstr "Trang Chính sách bảo mật"
 
-#: inc/options/woocommerce/general/checkout-page.php:116
+#: inc/options/woocommerce/general/checkout-page.php:121
 msgid "Phone Field"
 msgstr "Trường điện thoại"
 
-#: inc/options/woocommerce/general/checkout-page.php:98
+#: inc/options/woocommerce/general/checkout-page.php:103
 msgid "Address Line 2 Field"
 msgstr "Trường dòng địa chỉ 2"
 
-#: inc/options/woocommerce/general/checkout-page.php:89
-#: inc/options/woocommerce/general/checkout-page.php:107
-#: inc/options/woocommerce/general/checkout-page.php:125
+#: inc/options/woocommerce/general/checkout-page.php:94
+#: inc/options/woocommerce/general/checkout-page.php:112
+#: inc/options/woocommerce/general/checkout-page.php:130
 msgid "Required"
 msgstr "Bắt buộc"
 
-#: inc/options/woocommerce/general/checkout-page.php:88
-#: inc/options/woocommerce/general/checkout-page.php:106
-#: inc/options/woocommerce/general/checkout-page.php:124
+#: inc/options/woocommerce/general/checkout-page.php:93
+#: inc/options/woocommerce/general/checkout-page.php:111
+#: inc/options/woocommerce/general/checkout-page.php:129
 msgid "Optional"
 msgstr "Không bắt buộc"
 
-#: inc/options/woocommerce/general/checkout-page.php:87
-#: inc/options/woocommerce/general/checkout-page.php:105
-#: inc/options/woocommerce/general/checkout-page.php:123
+#: inc/options/woocommerce/general/checkout-page.php:92
+#: inc/options/woocommerce/general/checkout-page.php:110
+#: inc/options/woocommerce/general/checkout-page.php:128
 msgid "Hidden"
 msgstr "Ẩn đi"
 
-#: inc/options/woocommerce/general/checkout-page.php:80
+#: inc/options/woocommerce/general/checkout-page.php:85
 msgid "Company Name Field"
 msgstr "Trường tên công ty"
 
-#: inc/options/woocommerce/general/checkout-page.php:69
+#: inc/options/woocommerce/general/checkout-page.php:74
 msgid "Highlight Required Fields"
 msgstr "Đánh dấu trường bắt buộc"
 
-#: inc/options/woocommerce/general/checkout-page.php:53
+#: inc/options/woocommerce/general/checkout-page.php:58
 msgid "Coupon Form"
 msgstr "Biểu mẫu mã ưu đãi"
 
@@ -2731,7 +2731,7 @@ msgstr "Tiểu sử"
 #: inc/options/single-elements/post-nav.php:89
 #: inc/options/single-elements/related-posts.php:248
 #: inc/options/woocommerce/card-product-elements.php:258
-#: inc/options/woocommerce/general/cart-page.php:35
+#: inc/options/woocommerce/general/cart-page.php:40
 #: inc/options/woocommerce/single-product-gallery.php:113
 #: inc/options/woocommerce/single-product-gallery.php:338
 #: inc/panel-builder/header/cart/options.php:690
@@ -5257,7 +5257,7 @@ msgstr "Tóm tắt"
 #: inc/options/single-elements/featured-image.php:28
 #: inc/options/single-elements/related-posts.php:240
 #: inc/options/woocommerce/card-product-elements.php:243
-#: inc/options/woocommerce/general/cart-page.php:24
+#: inc/options/woocommerce/general/cart-page.php:29
 #: inc/options/woocommerce/single-product-gallery.php:101
 #: inc/panel-builder/header/cart/options.php:682
 msgid "Image Ratio"
@@ -5697,6 +5697,8 @@ msgstr "Màu chữ"
 #: inc/options/woocommerce/archive-main.php:165
 #: inc/options/woocommerce/card-product-elements.php:590
 #: inc/options/woocommerce/general/account-page.php:74
+#: inc/options/woocommerce/general/cart-page.php:58
+#: inc/options/woocommerce/general/checkout-page.php:200
 #: inc/options/woocommerce/general/product-badges.php:182
 #: inc/options/woocommerce/general/quantity-input.php:61
 #: inc/options/woocommerce/general/store-notice.php:56
@@ -5780,6 +5782,8 @@ msgstr "Kiểu phân trang"
 #: inc/options/woocommerce/archive-main.php:48
 #: inc/options/woocommerce/card-product-elements.php:159
 #: inc/options/woocommerce/general/account-page.php:19
+#: inc/options/woocommerce/general/cart-page.php:19
+#: inc/options/woocommerce/general/checkout-page.php:52
 #: inc/options/woocommerce/general/product-badges.php:19
 #: inc/options/woocommerce/general/quantity-input.php:19
 #: inc/options/woocommerce/general/store-notice.php:24
