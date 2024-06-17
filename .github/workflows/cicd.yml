@@ -13,7 +13,7 @@ jobs:
       with:
         server: 103.130.217.60
         username: cfiovndy
-        password: =74!+X+B3-Yp
+        password: ${{ secrets.PASSWORD}}
         local-dir: ./
         server-dir: /public_html/
         #Hello test
