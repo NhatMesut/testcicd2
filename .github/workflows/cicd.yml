@@ -16,3 +16,4 @@
           password: ${{ secrets.PASSWORD}}
           local-dir: ./
           server-dir: /public_html/
+## hihi
