@@ -16,3 +16,4 @@ jobs:
         password: =74!+X+B3-Yp
         local-dir: ./
         server-dir: /public_html/
+        #Hello test
